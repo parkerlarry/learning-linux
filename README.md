@@ -30,3 +30,10 @@ Right alt + 8 for open square bracket: [
 Right alt + Shift + 8 for open curly bracket: {
 
 # VM
+
+For the VM, I chose Ubuntu Server 18.04. It was nice to be able to setup docker in the installation phase.
+To add the virtual box image to git, I had to use git Large File System (git-lfs)
+
+`sudo apt-get instal git-lfs`
+
+[Download VM](https://github.com/parkerlarry/learning_linux/raw/master/VM/VM-ubuntu-18.ova)
