@@ -1,3 +1,5 @@
+# Good to know before getting started.
+
 This is the best quide on triple booting a mac with Mac OS, Windows and Ubuntu:
 
 [Tripple boot Mac ](https://www.innoq.com/en/blog/triple-booting-a-mac/)
@@ -26,3 +28,5 @@ Right alt + 7 for pipe: |
 Right alt + 8 for open square bracket: [
 
 Right alt + Shift + 8 for open curly bracket: {
+
+# VM
