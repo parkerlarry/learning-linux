@@ -5,7 +5,7 @@ This is the best quide on triple booting a mac with Mac OS, Windows and Ubuntu:
 Working on the mac keyboard with ubuntu is hard, if you have not set up the correct keyboard layout.
 Follow this quide to set up for the norwegian keyboard layout.
 
-sudo dpkg-reconfigure keyboard-configuration
+`sudo dpkg-reconfigure keyboard-configuration`
 
 Keyboard model -> MacBook/MacBook Pro
 
