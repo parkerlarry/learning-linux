@@ -1,11 +1,11 @@
 # Good to know before getting started.
 
-This is the best quide on triple booting a mac with Mac OS, Windows and Ubuntu:
+Below is the best quide I have seen on triple booting a mac with Mac OS, Windows and Ubuntu:
 
 [Tripple boot Mac ](https://www.innoq.com/en/blog/triple-booting-a-mac/)
 
 Working on the mac keyboard with ubuntu is hard, if you have not set up the correct keyboard layout.
-Follow this quide to set up for the norwegian keyboard layout.
+Follow the quide below to set up for the norwegian keyboard layout.
 
 `sudo dpkg-reconfigure keyboard-configuration`
 
