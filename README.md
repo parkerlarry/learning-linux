@@ -21,7 +21,7 @@ Compose key -> No compose key
 
 Use Control+Alt+Backspace to terminate the X server? -> Yes or No, your choice. I chose No.
 
-Test your keys:
+###Test your keys:
 
 Right alt + 7 for pipe: |
 
