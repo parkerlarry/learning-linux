@@ -43,10 +43,15 @@ I installed the driver from https://github.com/robotrovsky/Linux-Magic-Trackpad-
 After making sure the install was ok, then continue with:
 
 This is to find your device id:
-xinput list | grep "Trackpad"
 
-This is to make the trackpad responsive
-xinput set-prop <id> "Synaptics Finger" 0, 0, 0
+`xinput list | grep "Trackpad"`
+
+This is to make the trackpad responsive:
+
+`xinput set-prop <id> "Synaptics Finger" 0, 0, 0`
+
+`xinput set-prop 12 "Synaptics Move Speed" 3.0, 3.0, 7.0, 0`
+
 
 
 # VM
@@ -57,3 +62,9 @@ To add the virtual box image to git, I had to use git Large File System (git-lfs
 `sudo apt-get instal git-lfs`
 
 [Download VM](https://github.com/parkerlarry/learning_linux/raw/master/VM/VM-ubuntu-18.ova)
+
+# Backups
+
+always nice to create a backup of a directory and ssh to remove storage
+
+`tar vcfz - my_directory | ssh username@remotehost "cat > my_directory.tar.gz"`
