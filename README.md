@@ -30,7 +30,7 @@ Right alt + 8 for open square bracket: [
 Right alt + Shift + 8 for open curly bracket: {
 
 ### Apple Magic Trackpad 2 config
-I nstalled the driver from https://github.com/robotrovsky/Linux-Magic-Trackpad-2-Driver/issues, which comes packaged with Ubuntu 19.04 -> but that version used libinput and I was not sure on how to change the driver to synclient. I will udate this once I figure out how to make synclient the mouse driver on live cd of ubuntu 19. The steps below asume synclient is installed and made default driver for Apple Magic Trackpad.
+I installed the driver from https://github.com/robotrovsky/Linux-Magic-Trackpad-2-Driver, which comes packaged with Ubuntu 19.04 -> but that version used libinput as the driver and I was not sure on how to change the driver to synclient. I will update this README once I figure out how to make synclient the trackpad driver on live cd of ubuntu 19. The steps below asume synclient is installed and made default driver for Apple Magic Trackpad.
 
 `git clone https://github.com/robotrovsky/Linux-Magic-Trackpad-2-Driver`
 
