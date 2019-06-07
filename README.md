@@ -56,7 +56,7 @@ Furhther automations for system wide config persistence:
 
 `sudo nano /usr/share/X11/xorg.conf.d/30-synaptics.conf`
 
-`Section "InputClass"
+Section "InputClass"
 
         Identifier "Disable clickpad buttons on Apple touchpads"
         
@@ -84,7 +84,7 @@ Furhther automations for system wide config persistence:
         
         Option "HorizScrollDelta" "-80"
         
-EndSection`
+EndSection
 
 
 `sudo /usr/share/X11/xorg.conf.d/30-synaptics.conf /etc/X11/xorg.conf.d/30-synaptics.conf`
