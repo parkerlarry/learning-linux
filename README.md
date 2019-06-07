@@ -56,21 +56,35 @@ Furhther automations for system wide config persistence:
 
 `sudo nano /usr/share/X11/xorg.conf.d/30-synaptics.conf`
 
-Section "InputClass"
+`Section "InputClass"
+
         Identifier "Disable clickpad buttons on Apple touchpads"
+        
         MatchProduct "Apple|bcm5974"
+        
         MatchDriver "synaptics"
+        
         Option "SoftButtonAreas" "0 0 0 0 0 0 0 0"
+        
         Option "FingerLow" "0"
+        
         Option "FingerHigh" "0"
+        
         Option "FingerPress" "0"
+        
         Option "MinSpeed" "0"
+        
         Option "MaxSpeed" "0"
+        
         Option "AccelFactor" "0"
+        
         Option "TrackstickSpeed" "0"
+        
         Option "VertScrollDelta" "-80"
+        
         Option "HorizScrollDelta" "-80"
-EndSection
+        
+EndSection`
 
 
 `sudo /usr/share/X11/xorg.conf.d/30-synaptics.conf /etc/X11/xorg.conf.d/30-synaptics.conf`
