@@ -104,7 +104,19 @@ To add the virtual box image to git, I had to use git Large File System (git-lfs
 
 always nice to create a backup of a directory and ssh to remove storage
 
-`tar vcfz - my_directory | ssh username@remotehost "cat > my_directory.tar.gz"
+`tar vcfz - my_directory | ssh username@remotehost "cat > my_directory.tar.gz" `
 
-# misc
+
+# Misc
+
 bcdedit /set {bootmgr} path \EFI\ubuntu\shimx64.efi
+
+# AWS
+
+sudo apt install python3 python3-pip
+
+pip install --upgrade --user aws cli
+
+export path="home/user./local=$PATH"
+
+aws configure
